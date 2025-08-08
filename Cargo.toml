@@ -41,7 +41,7 @@ async-trait = "0.1"
 dotenv = "0.15"
 tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 anyhow = "1.0"
-alloy = { version = "0.5", features = [
+alloy = { version = "0.7.3", features = [
     "rpc-client",
     "consensus",
     "signer-local",
